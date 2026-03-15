@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#"class="logo">Jack</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="contact.html"class="active">Contact</a>
+        </nav>
+    </header>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://formspree.io/f/xkorokko" method="POST">
+        <div class="input-box">
+            <!-- Added name="name" and name="email" -->
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <!-- Added name="number" and name="subject" -->
+            <input type="number" name="number" placeholder="Mobile Number">
+            <input type="text" name="subject" placeholder="Email Subject">
+        </div>
+        <!-- Added name="message" -->
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Jack | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <!-- Changed to #contact so it scrolls to the top of THIS page -->
+            <a href="contact.html"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
+    
+</body>
+</html>
